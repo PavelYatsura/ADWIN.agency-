@@ -1,9 +1,9 @@
-
 .main-section-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	position: relative;
 	padding: 0 16px;
+	padding-top: 10%;
 }
 h2 {
 	font-family: var(--font-secondary);
@@ -14,12 +14,12 @@ h2 {
 }
 .main-section {
 	position: relative;
+	display: grid;
+	align-items: normal;
 }
-.main-section-left {
-	padding-top: 10%;
-}
+
 .main-section-right {
-	padding-top: 24.7%;
+	padding-top: 14.7%;
 	justify-self: end;
 	position: relative;
 	z-index: 9;
