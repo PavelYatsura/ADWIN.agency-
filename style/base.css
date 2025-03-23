@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:root {
+	--font-primary: 'Inter', sans-serif;
+	--font-secondary: 'Jura', sans-serif;
+	--initial-primary-color: #eab308;
+	--hover-primary-color: #fec71c;
+	--pressed-primary-color: #cc9500;
+	--initial-secondary-color: #2581eb;
+	--hover-secondary-color: #439fff;
+	--pressed-secondary-color: #0763cd;
+}
+
+main {
+	max-width: 1280px;
+	height: 100vh;
+	margin: 0 auto;
+	font-family: var(--font-primary);
+	/* padding: 16px 16px 12px 16px; */
+	display: grid;
+	grid-template-rows: 48px 1fr 32px;
+	overflow: hidden;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Duck Shop</title>
+	</head>
+	<body>
+		<main>
+			<header class="header">
+				<div class="header-logo">
+					<img src="/public/Logo.svg" alt="Logo" />
+					<h1>Duck<span>Shop</span></h1>
+				</div>
+				<nav class="header-nav">
+					<ul class="header-nav-ul">
+						<li class="header-nav-ul-li">
+							<a class="header-nav-ul-li-a nav-active" href="#" 
+								>Главная</a
+							>
+						</li>
+						<li class="header-nav-ul-li" style="margin-right: 26px">
+							Каталог
+							<img
+								class="header-nav-ul-li-img"
+								src="./public/arr-down.svg"
+								alt="arr-down"
+							/>
+						</li>
+						<li class="header-nav-ul-li">
+							<a class="header-nav-ul-li-a" href="#">Блог</a>
+						</li>
+						<li class="header-nav-ul-li">
+							<a class="header-nav-ul-li-a" href="#">Отзывы</a>
+						</li>
+						<li class="header-nav-ul-li">
+							<a class="header-nav-ul-li-a" href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="header-button-group">
+						<div class="header-button-group-svg">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+							>
+								<path
+									d="M3.33325 7.33333L5.99992 2.66667"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M12.6667 7.33333L10 2.66667"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M1.33325 7.33333H14.6666"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M2.33325 7.33333L3.39992 12.2667C3.46225 12.5724 3.62982 12.8465 3.87344 13.0414C4.11707 13.2363 4.42132 13.3396 4.73325 13.3333H11.2666C11.8666 13.3333 12.4666 12.8667 12.5999 12.2667L13.7333 7.33333"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M6 7.33333L6.66667 13.3333"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M3 10.3333H13"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M9.99992 7.33333L9.33325 13.3333"
+									stroke="#6B7280"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</div>
+						<button class="header-button-group-button" onclick="onOpen()">
+							Заказать обратный звонок
+						</button>
+						<div class="menu">
+							<input
+								type="checkbox"
+								id="burger-checkbox"
+								class="burger-checkbox"
+							/>
+							<label for="burger-checkbox" class="burger"></label>
+							<ul class="menu-list">
+								<li>
+									<a href="#" class="header-nav-ul-li-a nav-active">Главная</a>
+								</li>
+								<li><a href="#" class="header-nav-ul-li-a">Каталог</a></li>
+								<li><a href="#" class="header-nav-ul-li-a">Блог</a></li>
+								<li><a href="#" class="header-nav-ul-li-a">Отзывы</a></li>
+								<li><a href="#" class="header-nav-ul-li-a">Контакты</a></li>
+								<button class="menu-list-button" onclick="onOpen()">Заказать обратный звонок</button>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<section class="main-section">
+				<div class="main-section-container">
+					<div class="main-section-left">
+						<h2 class="main-section-left-title">Много</h2>
+					</div>
+					<div class="main-section-right">
+						<h2 class="main-section-right-title">уточек</h2>
+						<div class="main-section-right-textblock">
+							<p class="main-section-right-textblock-text">
+								Маленький друг найдётся для каждого <br />
+								в этом кряквенно жёлтом мире
+							</p>
+							<button class="main-section-right-textblock-button">
+								Смотреть уточек
+							</button>
+						</div>
+					</div>
+					<div class="main-section-img-group">
+						<img
+							class="main-section-img-group-duck-say"
+							src="./public/Duck-say.svg"
+							alt="Duck-say.svg"
+						/>
+						<img src="/public/Duck.png" alt="Duck.png" />
+					</div>
+				</div>
+				<div class="main-section-w960">
+					<div class="main-section-w960-description">
+						<h2 class="main-section-w960-title">Много</h2>
+						<h2 class="main-section-w960-second-title">уточек</h2>
+						<div class="main-section-w960-textblock">
+							<p class="main-section-w960-textblock-text">
+								Маленький друг найдётся для каждого <br />
+								в этом кряквенно жёлтом мире
+							</p>
+							<button class="main-section-w960-textblock-button">
+								Смотреть уточек
+							</button>
+						</div>
+					</div>
+					<div class="main-section-w960-img-group">
+						<img
+							class="main-section-w960-img-duck-say"
+							src="./public/Duck-say.svg"
+							alt=""
+						/>
+						<img
+							class="main-section-w960-img-duck"
+							src="./public/Duck.png"
+							alt=""
+						/>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<ul class="footer-ul">
+					<li>
+						<img src="./public/arr-right.svg" alt="" /><a href="#"
+							>Классические</a
+						>
+					</li>
+					<li>
+						<img src="./public/arr-right.svg" alt="" /><a href="#"
+							>Уточки панки</a
+						>
+					</li>
+					<li>
+						<img src="./public/arr-right.svg" alt="" /><a href="#"
+							>Супергерои</a
+						>
+					</li>
+					<li>
+						<img src="./public/arr-right.svg" alt="" /><a href="#">Милые</a>
+					</li>
+					<li>
+						<img src="./public/arr-right.svg" alt="" /><a href="#">Для детей</a>
+					</li>
+					<li>
+						<img src="./public/arr-right.svg" alt="" /><a href="#">Взрослым</a>
+					</li>
+				</ul>
+			</footer>
+			<div class="pop-up" id="pop-up">
+				<div class="pop-up-container">
+					<form class="pop-up-form" method="post">
+						<img
+							class="pop-up-form-img"
+							src="./public/form-close.svg"
+							alt=""
+							onclick="onClose()"
+						/>
+						<fieldset>
+							<label class="pop-up-form-label" for="name"
+								>Имя <span> *</span>
+								<input
+									class="pop-up-form-input"
+									id="name"
+									name="name"
+									type="text"
+									required
+									placeholder="Введите ваше имя"
+							/></label>
+							<label class="pop-up-form-label" for="telefone"
+								>Телефон <span> *</span>
+								<input
+									class="pop-up-form-input"
+									id="telefone"
+									name="first-name"
+									type="text"
+									required
+									placeholder="+7 000 00 00"
+							/></label>
+						</fieldset>
+						<input class="pop-up-form-input" type="submit" value="Отправить" />
+						<p>
+							Нажимая кнопку “Отправить”, вы соглашаетесь с
+							<a href="#">политикой конфиденциальности</a> и
+							<a href="#">договором оферты</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</main>
+		<script>
+			function onOpen() {
+				document.getElementById('pop-up').style.display = 'block'
+			}
+			function onClose() {
+				document.getElementById('pop-up').style.display = 'none'
+			}
+		</script>
+	</body>
+</html>

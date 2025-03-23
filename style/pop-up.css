@@ -1,0 +1,79 @@
+.pop-up {
+	position: absolute;
+	display: none;
+	background: #0000004d;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.pop-up-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pop-up-form {
+	position: relative;
+	width: 417px;
+	height: 360px;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+.pop-up-form-img {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+fieldset {
+	border: none;
+}
+.pop-up-form-label {
+	display: block;
+	font-weight: 500;
+}
+.pop-up-form-label span {
+	color: #ff6c2d;
+}
+.pop-up-form-input {
+	display: block;
+	width: 337px;
+	height: 40px;
+	border: 1px solid #f1f1f1;
+	border-radius: 14px;
+	padding-left: 16px;
+	margin-bottom: 12px;
+	margin-top: 6px;
+	font-size: 15px;
+	font-family: var(--font-primary);
+	font-weight: 500;
+	line-height: 22px;
+}
+input[type='submit'] {
+	border-radius: 8px;
+	background-color: var(--initial-primary-color);
+	color: #fff;
+	margin: 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+input[type='submit']:hover {
+	background-color: var(--hover-primary-color);
+}
+input[type='submit']:active {
+	background-color: var(--pressed-primary-color);
+}
+.pop-up p {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 400;
+}
+.pop-up p a {
+	color: var(--initial-secondary-color);
+}

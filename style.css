@@ -1,0 +1,120 @@
+@import './style/base.css';
+@import './style/header.css';
+@import './style/main.css';
+@import './style/footer.css';
+@import './style/pop-up.css';
+
+@media screen and (max-width: 1100px) {
+	.header {
+		grid-template-columns: 1fr 1fr;
+	}
+	.header-nav {
+		grid-template-columns: 1fr;
+	}
+	.header-nav-ul {
+		display: none;
+	}
+	.header-button-group-button {
+		margin-right: 20px;
+	}
+	.menu {
+		display: flex;
+	}
+	.main-section-img-group {
+		top: 0%;
+		right: -30%;
+	}
+	.main-section-img-duck {
+		width: 577px;
+	}
+	.main-section-img-duck-say {
+		top: 37%;
+	}
+	h2 {
+		margin-bottom: 0;
+		height: 122px;
+	}
+	.main-section-w960 {
+		display: grid;
+		height: 70vh;
+		align-items: center;
+		position: relative;
+	}
+	.main-section-container {
+		display: none;
+	}
+	.footer-ul {
+		padding-left: 0px;
+	}
+}
+@media screen and (max-width: 830px) {
+	.footer-ul {
+		gap: 2%;
+	}
+}
+@media screen and (max-width: 768px) {
+	main {
+		display: block;
+		height: 100%;
+	}
+	.header {
+		display: flex;
+		justify-content: space-between;
+		height: 48px;
+	}
+	.header-button-group-button {
+		display: none;
+	}
+	.header-button-group-svg {
+		margin-right: 12px;
+	}
+	.nav-active {
+		width: 64px;
+	}
+	.main-section-w960-textblock {
+		margin-bottom: 143px;
+	}
+	.main-section-w960-img-group {
+		bottom: -13vh;
+		right: -19%;
+	}
+	.main-section-w960-img-duck-say {
+		width: 64px;
+	}
+	.main-section-w960-img-duck {
+		width: 343px;
+	}
+	.footer-ul {
+		grid-template-columns: none;
+		grid-template-rows: repeat(6, max-content);
+		justify-content: start;
+		gap: 18px;
+	}
+}
+@media screen and (max-width: 570px) {
+	h2 {
+		font-size: 92px;
+		height: 72px;
+	}
+	.main-section-w960-img-group {
+		right: -25%;
+	}
+}
+@media screen and (max-width: 450px) {
+	.main-section-w960-img-group {
+		right: -30%;
+	}
+	.pop-up-form {
+		width: 344px;
+		padding: 20px 16px;
+		height: 320px;
+	}
+	.pop-up-form-input {
+		width: 317px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.main-section-w960-img-group {
+		right: -40%;
+	}
+}

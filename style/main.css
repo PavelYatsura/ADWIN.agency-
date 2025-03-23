@@ -1,0 +1,108 @@
+
+.main-section-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: relative;
+	padding: 0 16px;
+}
+h2 {
+	font-family: var(--font-secondary);
+	font-weight: 700;
+	font-size: 152px;
+	height: 152px;
+	text-transform: uppercase;
+}
+.main-section {
+	position: relative;
+}
+.main-section-left {
+	padding-top: 10%;
+}
+.main-section-right {
+	padding-top: 24.7%;
+	justify-self: end;
+	position: relative;
+	z-index: 9;
+}
+.main-section-right-textblock {
+	justify-self: center;
+	padding-left: 35px;
+}
+.main-section-right-textblock-text {
+	font-weight: 400;
+	letter-spacing: 0.16px;
+	margin-bottom: 8px;
+}
+.main-section-right-textblock-button {
+	width: 156px;
+	height: 38px;
+	border: none;
+	background-color: var(--initial-secondary-color);
+	border-radius: 8px;
+	color: #fff;
+	font-family: var(--font-primary);
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0.16px;
+	cursor: pointer;
+}
+.main-section-right button:hover {
+	background-color: var(--hover-secondary-color);
+}
+.main-section-right button:active {
+	background-color: var(--pressed-secondary-color);
+}
+.main-section-img-group {
+	position: absolute;
+	z-index: 5;
+	top: 13%;
+	right: 25%;
+}
+.main-section-img-group-duck-say {
+	position: absolute;
+	top: 35%;
+	left: -7.5%;
+}
+.main-section-w960 {
+	display: none;
+	padding: 0 16px;
+	height: 70vh;
+}
+.main-section-w960-description {
+	padding-top: 29px;
+	position: relative;
+	z-index: 10;
+}
+
+.main-section-w960-second-title {
+	margin-bottom: 62px;
+}
+.main-section-w960-textblock-text {
+	font-weight: 400;
+	letter-spacing: 0.16px;
+	margin-bottom: 8px;
+}
+.main-section-w960-textblock-button {
+	width: 156px;
+	height: 38px;
+	border: none;
+	background-color: var(--initial-secondary-color);
+	border-radius: 8px;
+	color: #fff;
+	font-family: var(--font-primary);
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0.16px;
+	cursor: pointer;
+}
+.main-section-w960-img-group {
+	position: absolute;
+	z-index: 5;
+	bottom: -25vh;
+	right: -30%;
+}
+.main-section-w960-img-duck-say {
+	position: absolute;
+	top: 35%;
+	left: -7.5%;
+}
