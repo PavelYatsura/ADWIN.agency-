@@ -6,13 +6,12 @@
 .footer-ul {
 	display: grid;
 	grid-template-columns: repeat(6, max-content);
-	gap: 4%;
-	justify-content: center;
-	padding-left: 42px;
+	gap: 4.9%;
+	padding-left: 10.7vw;
 }
 .footer-ul li {
 	list-style: none;
-	
+
 	display: flex;
 	align-items: center;
 }
@@ -20,7 +19,7 @@
 	margin: 0;
 }
 .footer-ul li img {
-	margin-right: 8px;
+	margin-right: 16px;
 }
 .footer-ul li a {
 	color: #000;

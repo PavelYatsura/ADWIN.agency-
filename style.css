@@ -20,16 +20,6 @@
 	.menu {
 		display: flex;
 	}
-	.main-section-img-group {
-		top: 0%;
-		right: -30%;
-	}
-	.main-section-img-duck {
-		width: 577px;
-	}
-	.main-section-img-duck-say {
-		top: 37%;
-	}
 	h2 {
 		margin-bottom: 0;
 		height: 122px;
@@ -44,7 +34,11 @@
 		display: none;
 	}
 	.footer-ul {
-		padding-left: 0px;
+		padding-left: 27px;
+		gap: 3.8%;
+	}
+	main {
+		grid-template-rows: 48px 1fr 42px;
 	}
 }
 @media screen and (max-width: 830px) {
@@ -60,7 +54,8 @@
 	.header {
 		display: flex;
 		justify-content: space-between;
-		height: 48px;
+		height: 45px;
+		padding: 9px 16px 0 16px;
 	}
 	.header-button-group-button {
 		display: none;
@@ -114,7 +109,24 @@
 	}
 }
 @media screen and (max-width: 375px) {
+	.main-section-w960 {
+		align-items: start;
+		height: 59vh;
+	}
+	.main-section-w960-description {
+		padding-top: 39px;
+	}
+	.main-section-w960-second-title {
+		margin-bottom: 56px;
+	}
 	.main-section-w960-img-group {
-		right: -40%;
+		bottom: -16vh;
+		right: -41%;
+	}
+	.footer {
+		padding: 0;
+	}
+	.footer-ul {
+		gap: 24px;
 	}
 }

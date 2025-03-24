@@ -3,7 +3,7 @@
 	grid-template-columns: 1fr 1fr;
 	position: relative;
 	padding: 0 16px;
-	padding-top: 10%;
+	padding-top: 11vh;
 }
 h2 {
 	font-family: var(--font-secondary);
@@ -27,6 +27,7 @@ h2 {
 .main-section-right-textblock {
 	justify-self: center;
 	padding-left: 35px;
+	padding-top: 21px;
 }
 .main-section-right-textblock-text {
 	font-weight: 400;
@@ -55,8 +56,8 @@ h2 {
 .main-section-img-group {
 	position: absolute;
 	z-index: 5;
-	top: 13%;
-	right: 25%;
+	top: 11%;
+	right: 26%;
 }
 .main-section-img-group-duck-say {
 	position: absolute;
@@ -69,13 +70,13 @@ h2 {
 	height: 70vh;
 }
 .main-section-w960-description {
-	padding-top: 29px;
+	padding-top: 42px;
 	position: relative;
 	z-index: 10;
 }
 
 .main-section-w960-second-title {
-	margin-bottom: 62px;
+	margin-bottom: 59px;
 }
 .main-section-w960-textblock-text {
 	font-weight: 400;
@@ -98,11 +99,14 @@ h2 {
 .main-section-w960-img-group {
 	position: absolute;
 	z-index: 5;
-	bottom: -25vh;
-	right: -30%;
+	bottom: -22vh;
+	right: -28%;
 }
 .main-section-w960-img-duck-say {
 	position: absolute;
-	top: 35%;
-	left: -7.5%;
+	top: 37%;
+	left: -8.5%;
 }
+.main-section-w960-img-duck {
+		width: 577px;
+	}
